@@ -57,3 +57,11 @@ body,
 .vh100 {
   min-height: 100vh;
 }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: black;
+}
