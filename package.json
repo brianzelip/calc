@@ -1,0 +1,22 @@
+{
+  "name": "calc",
+  "version": "0.1.0",
+  "description": "Calculator in javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf dist/ .cache/ && parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brianzelip/calc.git"
+  },
+  "keywords": [
+    "calculator",
+    "javascript",
+    "parcel.js",
+    "vue.js"
+  ],
+  "author": "Brian Zelip <bzelip@gmail.com> (https://zelip.me/)",
+  "license": "MIT"
+}
