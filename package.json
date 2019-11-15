@@ -3,31 +3,22 @@
   "version": "0.1.0",
   "description": "Calculator in javascript",
   "main": "index.js",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "rm -rf dist/ .cache/ && parcel build index.html"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:brianzelip/calc.git"
   },
   "keywords": [
     "calculator",
-    "javascript",
-    "parcel.js",
-    "vue.js"
+    "javascript"
   ],
   "author": "Brian Zelip <bzelip@gmail.com> (https://zelip.me/)",
   "license": "MIT",
   "dependencies": {
-    "palette.css": "^0.3.4",
-    "vue": "^2.6.10",
-    "vue-hot-reload-api": "^2.3.4"
+    "palette.css": "^0.3.4"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^3.0.2",
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-prerender": "^1.4.1",
     "vue-template-compiler": "^2.6.10"
   }
 }
